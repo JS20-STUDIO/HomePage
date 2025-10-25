@@ -5,7 +5,7 @@
    - [Founder - Janson20](/#founder---janson20)
 - [Projects](/#projects)
   - [Jingdu](/#jingdu)
-  - [DeepSeek For Paper](/#deepSeek-for-paper)
+  - [DeepSeek For Paper](/#deepseek-for-paper)
 - [Footer](/#footer)
 
 ## About us
