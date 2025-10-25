@@ -27,7 +27,6 @@ A free novel reading & publishing website with no Ads.
 #### Links
 - View at: https://jingdu.qzz.io or https://jingdu.js20studio.qzz.io/
 - Developer: [Janson20](http://github.com/Janson20/)
----
 ### DeepSeek For Paper
 #### About
 DeepSeek for Paper is an intelligent chat and command generation Minecraft plugin that integrates the DeepSeek AI model.
@@ -36,4 +35,5 @@ DeepSeek for Paper is an intelligent chat and command generation Minecraft plugi
 - Hangar: [DeepSeek For Paper](https://hangar.papermc.io/janson20/DeepSeekForPaper)
 - Modrinth: [Chat with DeepSeek](https://modrinth.com/plugin/chatwithdeepseek)
 - BBSMC: [DeepSeek for Paper](https://bbsmc.net/plugin/deepseekforpaper)
----
+## Footer
+> © 2025 - Now [JS20 Studio](https://js20studio.qzz.io/)
