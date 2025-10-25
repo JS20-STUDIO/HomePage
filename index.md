@@ -1,4 +1,12 @@
 # JS20 STUDIO
+## Table of Contents
+- [About us](/#About-us)
+- [Our Members](/#Our-Members)
+   - [Founder - Janson20](/#Founder---Janson20)
+- [Projects](/#Projects)
+  - [Jingdu](/#Jingdu)
+  - [DeepSeek For Paper](/#DeepSeek-For-Paper)
+- [Footer](/#Footer)
 ## About us
 JS20 STUDIO focuses on creating Minecraft resources and Python Programs.
 ## Our Members
