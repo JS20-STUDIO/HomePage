@@ -10,7 +10,9 @@ Proficient in programming languages such as Python and Java, with 5 years of Pyt
 ![Banner](https://api.mcbanners.com/banner/saved/eKWlhldyztOexg.png)
 - Tencent QQ: `3764579481`
 - Email: [janson20@qq.com](mailto:janson20@qq.com)
-- Bilibili: [Jansn20](https://space.bilibili.com/661015875) 
+- Bilibili: [Jansn20](https://space.bilibili.com/661015875)
+- Modrinth: [Janson](https://modrinth.com/user/Janson)
+- BBSMC: [Janson](https://modrinth.com/user/Janson)
 - Nerchat! [Space](https://matrix.to/#/#janson20:chat.neboer.site)
 - Torn: [3905052](https://www.torn.com/profiles.php?XID=3905052)
 - My Forum: [Account](https://janson20-forum.great-site.net/memberlist.php?mode=viewprofile&u=2)
@@ -20,5 +22,8 @@ Proficient in programming languages such as Python and Java, with 5 years of Pyt
 - [My Fourum](https://janson20-forum.great-site.net/)
 ## Projects
 ### Jingdu
-- [View](https://jingdu.qzz.io): A free novel reading & publishing website.
+#### About
+A free novel reading & publishing website with no Ads.
+#### Links
+- View at: https://jingdu.qzz.io or https://jingdu.js20studio.qzz.io/
 - Developer: [Janson20](http://github.com/Janson20/)
