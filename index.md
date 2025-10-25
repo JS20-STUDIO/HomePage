@@ -1,7 +1,7 @@
 # JS20 STUDIO
 ## Table of Contents
 - [About us](/#about-us)
-- [Our Members](/#our-Members)
+- [Our Members](/#our-members)
    - [Founder - Janson20](/#founder---janson20)
 - [Projects](/#projects)
   - [Jingdu](/#jingdu)
