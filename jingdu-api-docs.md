@@ -49,8 +49,11 @@
   ```json
   {
     "success": true,
+    "auth": "ok",
+    "message": "登录成功",
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-    "user_uuid": "00000000-0000-0000-0000-000000000000"
+    "user": "user123",
+    "uuid": "00000000-0000-0000-0000-000000000000"
   }
   ```
 - **错误响应**：
