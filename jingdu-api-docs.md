@@ -10,15 +10,16 @@
     "success": true,
     "data": [
       {
-        "book_id": "00000000-0000-0000-0000-000000000000",
-        "title": "示例书名",
-        "author": "佚名",
-        "cover": "images/cover.jpg",
-        "desc": "默认书籍介绍",
-        "category": "默认"
+        "author": "Janson20",
+        "author_id": "068bc0c2-2f09-7789-8000-f672921eed70",
+        "book_id": "068bbf8d-9ce0-72e5-8000-124f065499f3",
+        "category": "默认",
+        "cover": "images/log.jpeg",
+        "desc": "这是净读的官方开发日志，记录了净读从无到有的开发过程。",
+        "title": "净读开发日志"
       }
     ],
-    "total": 100
+    "count": 1
   }
   ```
 - **错误响应**：
@@ -73,6 +74,7 @@
 - **请求示例**：
   ```json
   {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
     "book_id": "00000000-0000-0000-0000-000000000000",
     "title": "第一章",
     "content": "这是第一章的内容..."
@@ -82,6 +84,7 @@
   ```json
   {
     "success": true,
+    "message": "章节添加成功",
     "chapter_id": 1
   }
   ```
@@ -89,7 +92,7 @@
   ```json
   {
     "success": false,
-    "message": "书籍不存在"
+    "message": "未找到书籍"
   }
   ```
 
