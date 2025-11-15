@@ -22,7 +22,7 @@ Proficient in programming languages such as Python and Java, with 5 years of Pyt
 
 #### Recommended Websites
 - [My Website](https://janson20.wuaze.com/)
-- [My Fourum](https://janson20-forum.great-site.net/)
+- [My Forum](https://janson20-forum.great-site.net/)
 
 ## Projects
 ### Jingdu
