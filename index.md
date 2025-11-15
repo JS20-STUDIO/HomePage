@@ -1,13 +1,4 @@
 # JS20 STUDIO
-## Table of Contents
-- [About us](/#about-us)
-- [Our Members](/#our-members)
-   - [Founder - Janson20](/#founder---janson20)
-- [Projects](/#projects)
-  - [Jingdu](/#jingdu)
-  - [DeepSeek For Paper](/#deepseek-for-paper)
-- [Footer](/#footer)
-
 ## About us
 JS20 STUDIO focuses on creating Minecraft resources and Python Programs.
 
@@ -51,6 +42,34 @@ DeepSeek for Paper is an intelligent chat and command generation Minecraft plugi
 - Hangar: [DeepSeek For Paper](https://hangar.papermc.io/janson20/DeepSeekForPaper)
 - Modrinth: [Chat with DeepSeek](https://modrinth.com/plugin/chatwithdeepseek)
 - BBSMC: [DeepSeek for Paper](https://bbsmc.net/plugin/deepseekforpaper)
+
+### Modrinth Mods Downloader
+#### Download
+- BBSMC: [Modrinth模组下载器](https://bbsmc.net/software/modrinth-down)
+
+### Minecraft APK Downloader
+#### Download
+- BBSMC: [Minecraft APK 下载器](https://bbsmc.net/software/mcapks-downloader)
+
+### Spawn Egg Recipes And More
+#### Download
+- Modrinth: [Spawn Egg Recipes And More(刷怪蛋配方及更多)](https://modrinth.com/mod/spawn-egg-recipes-and-more/)
+
+### Spawn Eggs Trading : Spawn Egg Recipes and more extend
+#### Download
+- Modrinth: [Spawn Eggs Trading : Spawn Egg Recipes and more extend(刷怪蛋交易)](https://modrinth.com/mod/spawn-eggs-trading)
+
+### Monsters Drop Mine
+#### Download
+- Modrinth: [Monsters Drop Mine(怪物掉落矿物)](https://modrinth.com/datapack/monsters-drop-mine)
+
+### Anti-Addiction
+#### Download
+- Modrinth: [Anti-Addiction(防沉迷)](https://modrinth.com/resourcepack/anti-addiction)
+
+### Cool
+#### Download
+- Modrinth: [Cool(酷)](https://modrinth.com/mod/cool-effect)
 
 ## Footer
 > © 2025 - Now [JS20 Studio](https://js20studio.qzz.io/)
