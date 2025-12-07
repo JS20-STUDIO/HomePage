@@ -308,3 +308,6 @@ result = response.json()
 if result['success']:
     token = result['token']
 ```
+
+## 页脚
+> © 2025 - 现在 [JS20 Studio](https://js20studio.qzz.io/)
