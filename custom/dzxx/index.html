@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蛋仔小汐呦 - 个人主页</title>
+    <style>
+        /* --- 全局与基础样式 --- */
+        :root {
+            --bg-color: #0f0f0f;
+            --secondary-bg: #1a1a1a;
+            --primary-color: #00a1d6; /* B站蓝 */
+            --accent-color: #fb7299;   /* B站粉 */
+            --text-color: #e5e5e5;
+            --text-muted: #888;
+            --border-color: #333;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* --- 页头与导航 --- */
+        header {
+            background-color: var(--secondary-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .nav-links a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin-left: 20px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+        
+        /* --- 主要内容区 --- */
+        main {
+            padding: 40px 0;
+        }
+        
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        /* --- 主推视频区 --- */
+        #featured-video .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 宽高比 */
+            height: 0;
+            overflow: hidden;
+            background-color: #000;
+            border-radius: 8px;
+        }
+
+        #featured-video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        /* --- 关于我 --- */
+        #about .profile {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        #about .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid var(--accent-color);
+        }
+
+        #about .bio {
+            flex: 1;
+        }
+        
+        /* --- 视频展播区 --- */
+        .video-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .video-card {
+            background-color: var(--secondary-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .video-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 161, 214, 0.2);
+        }
+
+        .video-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .video-card-content {
+            padding: 15px;
+        }
+
+        .video-card h3 {
+            margin: 0 0 10px;
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-color);
+        }
+        
+        /* --- 页脚 --- */
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid var(--border-color);
+            background-color: var(--secondary-bg);
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        /* --- 响应式设计 --- */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none; /* 移动端可改为汉堡菜单 */
+            }
+
+            #about .profile {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">蛋仔小汐呦的游戏世界</a>
+            <div class="nav-links">
+                <a href="#featured-video">主推视频</a>
+                <a href="#about">关于我</a>
+                <a href="#video-gallery">更多作品</a>
+                <a href="#contact">联系我</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <!-- 主推视频区域 -->
+        <section id="featured-video">
+            <h2>最新力作</h2>
+            <div class="video-container">
+                <iframe src="https://player.bilibili.com/player.html?bvid=BV1DbCJBjEUs&high_quality=1&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="100%" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+            </div>
+        </section>
+
+        <!-- 关于我 -->
+        <section id="about">
+            <h2>关于我</h2>
+            <div class="profile">
+                <img src="https://i0.hdslb.com/bfs/face/a8a26f9b9fb2a43e75d769a6c6290d4a4d9564ff.jpg@128w_128h_1c_1s.webp" alt="头像" class="avatar">
+                <div class="bio">
+                    <p>大家好，我是蛋仔小汐呦，一位爱玩艾比 逃出惊魂夜的蛋仔主播！</p>
+                    <p>在这里，你将看到最真实、最有趣的游戏内容。我的目标是与你一起探索游戏的无限可能。如果你也喜欢游戏，别忘了关注我，一键三连支持一下！</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 视频展播 -->
+        <section id="video-gallery">
+            <h2>更多作品</h2>
+            <div class="video-gallery">
+                <!-- 视频卡片1 -->
+                <div class="video-card">
+                    <img src="https://i1.hdslb.com/bfs/archive/b2f4c68d65c4f3c797966db414eadbacf34bc082.jpg@672w_378h_1c.webp" alt="视频缩略图">
+                    <div class="video-card-content">
+                        <h3>蛋仔派对逃出惊魂夜：极限争胜（双出）</h3>
+                        <a href="https://www.bilibili.com/video/BV18MJRzNEuc/?spm_id_from=333.1387.homepage.video_card.click" target="_blank" class="btn">前往B站观看</a>
+                    </div>
+                </div>
+                <!-- 视频卡片2 -->
+                <div class="video-card">
+                    <img src="https://i0.hdslb.com/bfs/archive/ad5d7f36d6ec1e07e4cb7fb74ffb81edffec917f.jpg@672w_378h_1c.webp" alt="视频缩略图">
+                    <div class="video-card-content">
+                        <h3>甩狙难吗</h3>
+                        <a href="https://i0.hdslb.com/bfs/archive/ad5d7f36d6ec1e07e4cb7fb74ffb81edffec917f.jpg@672w_378h_1c.webp" target="_blank" class="btn">前往B站观看</a>
+                    </div>
+                </div>
+                <!-- 视频卡片3 -->
+                <div class="video-card">
+                    <img src="https://i0.hdslb.com/bfs/archive/7bfaa40e6cb158704d55006647a1ac0ec02b1b18.jpg@672w_378h_1c.webp" alt="视频缩略图">
+                    <div class="video-card-content">
+                        <h3>极限三跑</h3>
+                        <a href="https://www.bilibili.com/video/BV1u7vczWEpA/?spm_id_from=333.1387.homepage.video_card.click" target="_blank" class="btn">前往B站观看</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 蛋仔小汐呦的游戏世界. All Rights Reserved.</p>
+            <p>关注我的B站: <a href="https://space.bilibili.com/3546958226524980" target="_blank">点击进入我的B站主页</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
